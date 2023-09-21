@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "sdk": "/Users/johannes/cross-toolchain/ubuntu-xenial.sdk",
+    "toolchain-bin-dir": "/Users/johannes/cross-toolchain/swift.xctoolchain/usr/bin",
+    "target": "linux-unknown-x86_64",
+    "dynamic-library-extension": "so",
+    "extra-cc-flags": [
+        "-fPIC"
+    ],
+    "extra-swiftc-flags": [
+        "-use-ld=gold"
+    ],
+    "extra-cpp-flags": ["-lstdc++"]
+}
